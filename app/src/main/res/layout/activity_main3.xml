@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0F0F0F"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-4dp"
+        android:layout_marginBottom="641dp"
+        android:fontFamily="@font/bangers"
+        android:paddingLeft="150dp"
+        android:paddingTop="5sp"
+        android:text="LINEAR"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#39ff14" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="336dp"
+        android:layout_height="193dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="19dp"
+        android:layout_marginBottom="408dp"
+        android:text="Linear Data Structure: Linear data structure, the data is organized in a linear order in which elements are linked one after the other. ... Examples of the linear data structure are array, queue, stack, linked list, etc."
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#F3BDCD" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="257sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="74dp"
+        android:layout_marginBottom="277dp"
+        android:background="@drawable/ripple"
+        android:fontFamily="@font/bangers"
+        android:paddingBottom="5sp"
+        android:text="ARRAY"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#F3F4F5" />
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="257sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="74dp"
+        android:layout_marginBottom="165dp"
+        android:background="@drawable/ripple"
+        android:fontFamily="@font/bangers"
+        android:paddingBottom="5sp"
+        android:text="STACK"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#F3F4F5" />
+
+    <Button
+        android:id="@+id/button3"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="257sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="74dp"
+        android:layout_marginBottom="55dp"
+        android:background="@drawable/ripple"
+        android:fontFamily="@font/bangers"
+        android:paddingBottom="5sp"
+        android:text="LINKED_LIST"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#F3F4F5" />
+</RelativeLayout>

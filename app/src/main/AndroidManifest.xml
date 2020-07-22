@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.project">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Data Vizualization"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".linearsearch"
+            android:parentActivityName=".searching"/>
+        <activity android:name=".selectionsort"
+            android:parentActivityName=".sorting"/>
+        <activity android:name=".insertionsort"
+            android:parentActivityName=".sorting"/>
+        <activity android:name=".bubblesort"
+            android:parentActivityName=".sorting"/>
+        <activity
+            android:name=".NonLinear"
+            android:parentActivityName=".Main2Activity" />
+        <activity
+            android:name=".LinkedList"
+            android:parentActivityName=".Main3Activity" />
+        <activity
+            android:name=".Stack"
+            android:parentActivityName=".Main3Activity" />
+        <activity
+            android:name=".searching"
+            android:parentActivityName=".Main4Activity" />
+        <activity
+            android:name=".sorting"
+            android:parentActivityName=".Main4Activity" />
+        <activity
+            android:name=".Main4Activity"
+            android:parentActivityName=".Main3Activity" />
+        <activity
+            android:name=".Main3Activity"
+            android:parentActivityName=".Main2Activity" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

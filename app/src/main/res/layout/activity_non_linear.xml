@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0F0F0F"
+    tools:context=".NonLinear">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-4dp"
+        android:layout_marginBottom="641dp"
+        android:fontFamily="@font/bangers"
+        android:paddingLeft="120dp"
+        android:paddingTop="5sp"
+        android:text="NON-LINEAR"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+        android:textColor="#39ff14" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="197dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="360dp"
+        android:text="Non-Linear Data Structure: non-linear data structure does not organize the data in a sequential manner."
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#F3BDCD" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="257sp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="77dp"
+        android:layout_marginBottom="245dp"
+        android:background="@drawable/ripple"
+        android:fontFamily="@font/bangers"
+        android:paddingBottom="5sp"
+        android:text="BINARY TREE"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#F3F4F5" />
+
+
+</RelativeLayout>
